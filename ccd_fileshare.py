@@ -53,15 +53,15 @@ class Azure:
 
 # Main method.
 if __name__ == "__main__":
-    storage_account_name = "ccdmigrationdata"
-    storage_account_key = "w1O+O8FFnQbkaDWROQuRya/ywxUfHd+UV646C3NcEqecR6enURy52B5wWJxXCkaSwGifaELW7ErPD0SJt222Sw=="
-    fileshare_name = "recurringintegrationtest"
-    fileshare_directory_name_download="Inbound"
-    fileshare_directory_name_upload="Outbound"
+    storage_account_name = ""
+    storage_account_key = ""
+    fileshare_name = ""
+    fileshare_directory_name_download=""
+    fileshare_directory_name_upload=""
     obj = Azure(storage_account_name ,storage_account_key ,fileshare_name)
 
-    #requirement from NGO location
-    fileshare_directory_name_spec="Retail Sales Transactions"
+    #requirement
+    fileshare_directory_name_spec=""
 
     #Calling functions
     
@@ -70,12 +70,12 @@ if __name__ == "__main__":
     #obj.List_directory(fileshare_name)
     
     #Download the files to the given directory
-    #local_download_directory= "Work/ccd/azure_fileshare/downloaded_files/"
+    #local_download_directory= ""
     #obj.Download(local_download_directory,fileshare_directory_name_download)
 
 
     #Download the files to the given directory
-    #local_spec_directory= "Work/CCD/spec_files/"
+    #local_spec_directory= ""
     #obj.Download(local_spec_directory,fileshare_directory_name_spec)
 
 	#Upload files in the document
