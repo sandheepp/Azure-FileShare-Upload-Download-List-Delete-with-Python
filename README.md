@@ -7,9 +7,9 @@ azure, azure-storage-blob, azure-storage-file, azure-storage-queue
 
 For installation: 
 
--pip install azure
--pip install azure-storage-blob
--pip install azure-storage-file
--pip install azure-storage-queue
-
-Funcions:
+```bash
+pip install azure
+pip install azure-storage-blob
+pip install azure-storage-file
+pip install azure-storage-queue
+```
