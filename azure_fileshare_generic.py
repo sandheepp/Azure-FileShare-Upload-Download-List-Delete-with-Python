@@ -56,6 +56,7 @@ if __name__ == "__main__":
     storage_account_name = ""
     storage_account_key = ""
     fileshare_name = ""
+    fileshare_directory_name_list=""
     fileshare_directory_name_download=""
     fileshare_directory_name_upload=""
     obj = Azure(storage_account_name ,storage_account_key ,fileshare_name)
@@ -64,7 +65,7 @@ if __name__ == "__main__":
     #Calling functions
 
     #listing the files in the fileshare_name
-    obj.List_directory(fileshare_name+"/"+fileshare_directory_name_download)
+    obj.List_directory(fileshare_name+"/"+fileshare_directory_name_list)
     
     #Download the files to the given directory
     local_download_directory= ""
