@@ -41,6 +41,6 @@ Steps
 2. In the local_upload_directory="", specify the local location within the "" as the location of files to be uploaded.
 3. Under the Caling functions, there is a function call with obj.Download(). This functions downloads all the files in the 'location: "fileshare_name/fileshare_directory_name_upload"
 
-## License
+## License of this repository
 [MIT](https://choosealicense.com/licenses/mit/)
 
