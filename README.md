@@ -9,10 +9,10 @@ azure, azure-storage-blob, azure-storage-file, azure-storage-queue
 
 ### For installation: 
 ```bash
-pip install azure
-pip install azure-storage-blob
-pip install azure-storage-file
-pip install azure-storage-queue
+pip3 install azure
+pip3 install azure-storage-blob
+pip3 install azure-storage-file
+pip3 install azure-storage-queue
 ```
 # Functions
 1. Listing all the files
@@ -44,4 +44,3 @@ Steps
 
 ## License of this repository
 [MIT](https://choosealicense.com/licenses/mit/)
-
