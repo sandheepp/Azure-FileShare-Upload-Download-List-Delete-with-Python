@@ -7,7 +7,7 @@ Codes for azure fileshare integration with Python
 azure, azure-storage-blob, azure-storage-file, azure-storage-queue
 
 
-### For installation: 
+### For installation of packages: 
 ```bash
 pip3 install azure
 pip3 install azure-storage-blob
