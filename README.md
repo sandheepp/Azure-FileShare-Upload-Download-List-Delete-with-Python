@@ -9,10 +9,7 @@ azure, azure-storage-blob, azure-storage-file, azure-storage-queue
 
 ### For installation of packages: 
 ```bash
-pip3 install azure
-pip3 install azure-storage-blob
-pip3 install azure-storage-file
-pip3 install azure-storage-queue
+pip3 install -r requirements.txt
 ```
 # Functions
 1. Listing all the files
