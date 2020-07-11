@@ -1,4 +1,4 @@
-# Azure FileShare Upload/Download/List/Delete with Python
+# Azure FileShare using Python: Upload/Download/List/Delete
 Codes for azure fileshare integration with Python
 
 ## Requirements: Python: 3.7
