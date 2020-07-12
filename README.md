@@ -1,11 +1,9 @@
-# Azure FileShare using Python: Upload/Download/List/Delete
+# Azure FileShare using Python
+
+## Upload/Download/List/Delete
 Codes for azure fileshare integration with Python
 
-## Requirements: Python: 3.7
-
-## Pre-requisitie packages: 
-azure, azure-storage-blob, azure-storage-file, azure-storage-queue
-
+## Pre-requisites: Python: 3.7
 
 ### For installation of packages: 
 ```bash
